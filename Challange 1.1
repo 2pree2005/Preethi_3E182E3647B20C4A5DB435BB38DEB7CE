@@ -1,0 +1,26 @@
+# Get the Factorials of a Number Num
+
+)
+- def factors_of_n(num):
+a=1
+factors=[]
+while a <= num:
+
+
+if num %a == 0:
+
+if (num/a,a) not in factors:
+
+factors.append((a,int(num/a)))
+
+a = a+1
+
+
+return factors
+
+ num=int(input("Enter a number: ")
+ print(factors_of_n(num))
+
+Enter a number: 48
+[(1, 48), (2, 24), (3, 16), (4, 12), (6, 8)]
+...Program finished with exit code 0 Press ENTER to exit console.
